@@ -30,6 +30,10 @@ body {
     text-align: center;
 }
 
+.btn {
+    border-radius: 4px;
+}
+
 img {
     height: 375px;
     width: 306px;
@@ -90,7 +94,7 @@ img {
 }
 
 .rowheight {
-    height: 315px;
+    height: 310px;
     margin: 5px;
 }
 
@@ -124,7 +128,7 @@ i {
 span {
     text-align: center;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: -5px;
     margin-left: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -174,6 +178,15 @@ svg {
     z-index: 2;
     min-width: 300px;
 }
-.AliTekes{
-font-family: 'PT Sans Narrow', sans-serif;
+
+.AliTekes {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+.projelerimyazi {
+    margin-top: -7px;
 }
